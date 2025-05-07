@@ -1,72 +1,47 @@
-<!DOCTYPE html>
+*<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - EcoBook</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <figure class="logo">
-            <img src="../assets/pngwing.com (9).png" alt="Logo de EcoBook" width="150">
-        </figure>
+        <h1>Contacto</h1>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="alojamientos.html">Alojamientos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="registro.html">Registro</a></li>
+                <li><a href="./alojamientos.html">Alojamientos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./registro.html">Registro</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Contacta con Nosotros</h1>
-        
-        <section>
-            <p>¿Tienes alguna pregunta o sugerencia? Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
-            
+        <h2>Envíanos un mensaje</h2>
+        <fieldset>
+            <legend>Envíanos un mensaje</legend>
             <form action="#" method="post">
-                <fieldset>
-                    <legend>Información de contacto</legend>
-                    
-                    <p>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
-                    </p>
-                    
-                    <p>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required placeholder="tu.email@ejemplo.com">
-                    </p>
-                    
-                    <p>
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="¿Cómo podemos ayudarte?"></textarea>
-                    </p>
-                    
-                    <button type="submit">Enviar mensaje</button>
-                </fieldset>
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" type="text" required placeholder="Ingresa tu nombre">
+
+                <label for="email">Email:</label>
+                <input name="email" type="email" required placeholder="ejemplo@correo.com">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí"></textarea>
+
+                <button type="submit">Enviar</button>
             </form>
-        </section>
-        
-        <section>
-            <h2>Información de Contacto</h2>
-            <address>
-                <p><strong>Email:</strong> contacto@ecobook.com</p>
-                <p><strong>Teléfono:</strong> +34 612 345 678</p>
-                <p><strong>Dirección:</strong> Calle del Roble Verde, 21<br>28001 Madrid, España</p>
-            </address>
-        </section>
+        </fieldset>
     </main>
 
-    <footer>
-        <nav>
-            <a href="contacto.html">Contacto</a>
-            <a href="registro.html">Registro</a>
-        </nav>
-        <p>2025 EcoBook </p>
-    </footer>
+    <address>
+        Contacto: <a href="mailto:contacto@ecobook.com">contacto@ecobook.com</a>
+    </address>
+
+    <script src="../js/script.js"></script>
 </body>
-</html>
+</html>*
