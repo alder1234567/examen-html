@@ -15,7 +15,7 @@ La startup **"EcoBook"** necesita un sitio web de 4 páginas para reservas de al
 
 ---
 
-### **2. Requerimientos Funcionales**
+### **2. Requerimientos Funcionales**    
 
 #### **Estructura del Proyecto**
 
